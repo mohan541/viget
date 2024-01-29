@@ -313,6 +313,73 @@
     top:100px;
     
 }
+.bar-contact-details-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bar-contact-details-main .bar-left div ul li{
+    line-height: 77px;
+    font-size: 12px;
+    color: #757575;
+}
+.bar-contact-details-main .bar-left div ul li a{
+    font-size: 64px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(40,40,40);
+}
+.bar-contact-details{
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.bar-contact-details p{
+    font-size: 18px;
+    line-height: 29px;
+    color: rgb(40,40,40);
+}
+.bar-right div ul li{
+    line-height: 34px;
+    font-size: 12px;
+    color: #757575;
+}
+.bar-right div ul li a{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(40, 40, 40);
+    text-decoration: none;
+}
+.featured{
+    margin-top: 60px;
+}
+.featured h3{
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+    letter-spacing: 1.2px;
+}
+.featured .featured-info{
+    display: flex;
+    margin-bottom: 15px;
+}
+.featured-info .featured-image{
+    margin-right: 10px;
+}
+.featured-info .featured-image-info p{
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 14.4px;
+    color:#282828;
+}
+.featured-info .featured-image-info h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.featured-image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: auto;
+}
 /* --------------above clicking----------------------- */
 .viget-contact div .contact-info{
     color: #135C92;
@@ -354,7 +421,6 @@ li{
     display: flex;
     justify-content: space-between;
     margin: 50px 40px 60px 40px;
-    
 }
 .left-footer{
     display: flex;
@@ -459,6 +525,10 @@ li{
 .right-footer p a:hover{
     color: #135C92;
 }
+.bar-contact-us{
+
+}
+
 
 /* Media queries */
 @media screen and (max-width: 320px){
